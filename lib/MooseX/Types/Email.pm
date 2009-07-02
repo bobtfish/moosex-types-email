@@ -5,6 +5,8 @@ use MooseX::Types
 use MooseX::Types::Common::String 'NonEmptySimpleStr';
 use Email::Valid;
 
+our $VERSION = '0.001';
+
 subtype EmailAddress,
   as NonEmptySimpleStr,
   where { Email::Valid->address($_) },
@@ -54,4 +56,3 @@ terms as Perl itself.
 
 =cut
 
-1;
