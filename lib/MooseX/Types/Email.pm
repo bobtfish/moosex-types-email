@@ -5,7 +5,7 @@ use MooseX::Types
 use MooseX::Types::Common::String 'NonEmptySimpleStr';
 use Email::Valid;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 subtype EmailAddress,
   as NonEmptySimpleStr,
