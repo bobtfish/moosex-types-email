@@ -71,6 +71,10 @@ Shamelessly extracted from L<Reaction::Types::Email>.
 Chris Nehren C<< <apeiron@cpan.org> >> added support for validing email
 messages.
 
+=head1 COPYRIGHT
+
+Copyright 2009 the above L<AUTHORS> and L<CONTRIBUTORS>.
+
 =head1 LICENSE
 
 This library is free software, you can redistribute it and/or modify it under the same
