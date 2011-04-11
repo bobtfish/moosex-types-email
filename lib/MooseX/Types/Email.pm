@@ -39,11 +39,11 @@ MooseX::Types::Email - Email address validation type constraint for Moose.
 
 =head1 DESCRIPTION
 
-Moose type constraints which uses L<Email::Valid> and L<Email::Valid> to check
+Moose type constraints which uses L<Email::Valid> and L<Email::Abstract> to check
 for valid email addresses and messages.
 
 Note that C<EmailMessage> must be an object that can be passed to
-L<Email::Valid>. Currently, constraining strings is not supported due to the
+L<Email::Abstract>. Currently, constraining strings is not supported due to the
 leniency of Email::Abstract.
 
 =head1 SEE ALSO
