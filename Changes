@@ -1,3 +1,6 @@
+0.004  29-04-2011
+  - Fix documentation links (abraxxa)
+
 0.003  21-10-2009
   - Support an EmailMessage type using Email::Abstract
 
